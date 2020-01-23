@@ -34,7 +34,7 @@ return (`Unleash ${a} the ${b}`);
 function exerciseDog(dogName,dogBreed)
 {
  let str=[];
- for(let i=0;i<routine.length;i++)
+ for(let i=0; i<routine.length; i++)
  {
   str.push(routine[i](dogName,dogBreed)); 
  }
