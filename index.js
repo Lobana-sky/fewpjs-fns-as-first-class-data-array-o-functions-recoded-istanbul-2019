@@ -1,6 +1,8 @@
 function wakeDog(a,b)
 {
-  return (`Wake ${a} the ${b}`); 
+  const string=`Wake ${a} the ${b}`;
+  consol.log(string);
+  return string; 
   
 }
 //wakeDog(a, b)).to.equal(`Wake Skippy the Welsh Corgi`)
