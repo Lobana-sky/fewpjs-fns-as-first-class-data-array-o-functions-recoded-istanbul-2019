@@ -32,11 +32,13 @@ return (`Unleash ${a} the ${b}`);
  let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome, unleashDog];
 function exerciseDog(dogName,dogBreed)
 {
- let routine=[wakeDog(dogName,dogBreed),leashDog(dogName,dogBreed),walkToPark(dogName,dogBreed),throwFrisbee(dogName,dogBreed),walkHome(dogName,dogBreed), unleashDog(dogName,dogBreed)];
- return routine;
+ let str=[];
+ for(let i=0;i<routine.length;i++)
+ {
+  str.push(routine[i](dogName,dogBreed)); 
+ }
+ return str;
 }
 
 
-let routine=exerciseDog("Esther","Dalmation");
-routine;
 
