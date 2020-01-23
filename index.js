@@ -29,7 +29,7 @@ function unleashDog(a,b)
 return (`Unleash ${a} the ${b}`);
 }
 
- let routine=[wakeDog,leashDog(dogName,dogBreed),walkToPark(dogName,dogBreed),throwFrisbee(dogName,dogBreed),walkHome(dogName,dogBreed), unleashDog(dogName,dogBreed)];
+ let routine=[wakeDog,leashDog,walkToPark(dogName,dogBreed),throwFrisbee(dogName,dogBreed),walkHome(dogName,dogBreed), unleashDog(dogName,dogBreed)];
 function exerciseDog(dogName,dogBreed)
 {
  let routine=[wakeDog(dogName,dogBreed),leashDog(dogName,dogBreed),walkToPark(dogName,dogBreed),throwFrisbee(dogName,dogBreed),walkHome(dogName,dogBreed), unleashDog(dogName,dogBreed)];
