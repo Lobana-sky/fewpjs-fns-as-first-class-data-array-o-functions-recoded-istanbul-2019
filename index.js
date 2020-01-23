@@ -30,6 +30,7 @@ return (`Unleash ${a} the ${b}`);
 }
 
  let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome, unleashDog];
+ 
 function exerciseDog(dogName,dogBreed)
 {
  let str=[];
