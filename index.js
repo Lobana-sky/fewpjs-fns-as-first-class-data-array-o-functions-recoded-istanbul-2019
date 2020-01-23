@@ -1,7 +1,7 @@
 function wakeDog(a,b)
 {
   const string=`Wake ${a} the ${b}`;
-  consol.log(string);
+  
   return string; 
   
 }
